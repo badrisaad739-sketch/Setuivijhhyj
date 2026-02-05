@@ -1,0 +1,18 @@
+print("hallow to app calculaitre saad")
+num1=float(input("entre le premier number: "))
+num2=(input("choisis quil que choze +,/,*,-:"))
+plus="+"
+mois="-"
+div="/"
+mul="*"
+num3=float(input("entre dexieme number: "))
+if num2==plus:
+    print(num1+num3)
+elif num2==mois:
+    print(num1-num3)
+elif num2==div:
+    print(num1/num3)
+elif num2==mul:
+    print(num1*num3)
+else:
+    print("sorry",num2)
